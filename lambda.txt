@@ -1,0 +1,5 @@
+#La fonction lamba a pour argument "key" et comme varibale x à la quelle on passe une valeur de [1] pour trier la liste à partir des valeurs du plus petit au plus grand.
+ si on passe de x[0], le return se fait à partir des clés.
+liste = [("Harry Potter", 5), ("Wall-E", 3), ("Blade Runner", 4),("Black Pantère",7),("Maodo", 12)]
+liste.sort(key = lambda x: x[1])
+print(liste)
